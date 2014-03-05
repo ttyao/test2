@@ -11,6 +11,7 @@
 @class DetailViewController;
 
 @interface MasterViewController : UITableViewController
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 
 @property (strong, nonatomic) DetailViewController *detailViewController;
 
